@@ -1,4 +1,4 @@
-// Project 30a: DHT11 and BMP180 Temperature, Humidity and Barometric Pressure Sensors
+// DHT11 and BMP180 Temperature, Humidity and Barometric Pressure Sensors Weather Station
 ////////////////////////////////
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>       // Include library
@@ -29,6 +29,7 @@ uint32_t delayMS;
 
 bool bmpReady = false;
 
+// Define your elevation here
 const float elevation = 51.0f; // Elevation value for Petah Tikva, Israel
 
 void setup()
