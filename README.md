@@ -8,4 +8,4 @@ It displays:
 - Barometric pressure
 - Barometric pressure at the Sea Level
 
-Version 1.0 by AshenMoon. 24/12/20023.
+Version 1.0 by AshenMoon. 24/12/2023.
